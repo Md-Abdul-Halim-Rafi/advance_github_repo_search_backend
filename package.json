@@ -15,5 +15,20 @@
   "bugs": {
     "url": "https://github.com/Md-Abdul-Halim-Rafi/nuport_take_home_task_backend/issues"
   },
-  "homepage": "https://github.com/Md-Abdul-Halim-Rafi/nuport_take_home_task_backend#readme"
+  "homepage": "https://github.com/Md-Abdul-Halim-Rafi/nuport_take_home_task_backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "axios": "^0.27.2",
+    "celebrate": "^15.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "rate-limiter-flexible": "^2.3.7",
+    "winston": "^3.8.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
 }
