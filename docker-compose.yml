@@ -1,0 +1,15 @@
+version: "3.1"
+
+services:
+  nuport_backend:
+    container_name: nuport_backend
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app/
+      - /app/node_modules
+    ports:
+      - 3100:3100

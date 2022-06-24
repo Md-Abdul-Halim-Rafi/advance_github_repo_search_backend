@@ -1,0 +1,2 @@
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:09:10:36 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3100/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36\"\n","timestamp":"2022-06-24 09:10:36"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:09:10:54 +0000] \"GET /v1/special-search/repositories HTTP/1.1\" 200 14 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 09:10:54"}
