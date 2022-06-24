@@ -62,7 +62,7 @@ const searchedRepositories = async (search_text) => {
             return { status: 500, msg: "Github Server Error" };
         }
 
-        const repositories = [];
+        let repositories = [];
         const statsPromises = [];
 
         for (let i = 0; i < githubRepositories.repositories.length; i++) {
@@ -87,9 +87,14 @@ const searchedRepositories = async (search_text) => {
             });
         }
 
-        const topContributor = await getTopContributor(statsPromises);
+        const topContributors = await getTopContributor(statsPromises);
 
-        return { status: 200, repositories, count: githubRepositories.count, topContributor };
+        repositories = repositories.map((repository, index) => ({
+            ...repository,
+            ...topContributors[index]
+        }));
+
+        return { status: 200, repositories, count: githubRepositories.count };
 
     } catch (err) {
 
