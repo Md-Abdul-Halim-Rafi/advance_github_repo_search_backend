@@ -12,11 +12,6 @@ const expressLoader = async (app) => {
 
     app.enable("trust proxy");
 
-    app.get("/", (req, res) => {
-
-        return res.status(200).send("OK");
-    });
-
     app.use(process.env.API_PREFIX, loadRoutes());
 }
 

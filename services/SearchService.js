@@ -1,8 +1,12 @@
-const searchedRepositories = async () => {
+const githubService = require("./GithubService");
+
+const searchedRepositories = async (search_text) => {
 
     try {
 
-        return { status: 200 };
+        const githubRepositories = await githubService.searchGithubRepositories(search_text);
+
+        return { status: 200, githubRepositories };
         
     } catch (err) {
         
