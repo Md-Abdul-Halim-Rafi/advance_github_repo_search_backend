@@ -65,7 +65,9 @@ const searchedRepositories = async (query) => {
 
     try {
 
-        const githubRepositories = await githubService.searchGithubRepositories(q, page);
+        const githubRepositories = await githubService.searchGithubRepositories(
+            q, parseInt(page)
+        );
 
         if (!githubRepositories) {
             return { status: 500, msg: "Github Server Error" };
