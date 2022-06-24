@@ -59,11 +59,13 @@ const getTopContributor = async (statsPromises, redisKeys) => {
     }
 }
 
-const searchedRepositories = async (search_text) => {
+const searchedRepositories = async (query) => {
+
+    const { q, page } = query;
 
     try {
 
-        const githubRepositories = await githubService.searchGithubRepositories(search_text);
+        const githubRepositories = await githubService.searchGithubRepositories(q, page);
 
         if (!githubRepositories) {
             return { status: 500, msg: "Github Server Error" };
