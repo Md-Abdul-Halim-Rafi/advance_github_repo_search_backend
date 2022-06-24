@@ -1,0 +1,19 @@
+{
+  "name": "nuport_take_home_task_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Md-Abdul-Halim-Rafi/nuport_take_home_task_backend.git"
+  },
+  "author": "Md-Abdul-Halim-Rafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Md-Abdul-Halim-Rafi/nuport_take_home_task_backend/issues"
+  },
+  "homepage": "https://github.com/Md-Abdul-Halim-Rafi/nuport_take_home_task_backend#readme"
+}
