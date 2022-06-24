@@ -1,8 +1,10 @@
 const githubService = require("./GithubService");
 const { isArrayAndHasContent } = require("../utils/utils");
+const redisClient = require("../utils/redis-client");
+const logger = require("../loaders/logger");
 
 // Helper Functions
-const getTopContributor = async (statsPromises) => {
+const getTopContributor = async (statsPromises, redisKeys) => {
 
     let topContributorData = {
         topContributorUsername: null,
@@ -15,14 +17,20 @@ const getTopContributor = async (statsPromises) => {
 
         const allContributorsData = await Promise.all(statsPromises);
 
+        logger.info(`Picked stats: ${allContributorsData.length}`);
+
         let topContributors = [];
 
         for (let i = 0; i < allContributorsData.length; i++) {
 
             const contributors = allContributorsData[i].data;
 
+            if (redisKeys[i]) {
+                redisClient.set(redisKeys[i], JSON.stringify(contributors), "ex", 15 * 60);
+            }
+
             if (!isArrayAndHasContent(contributors)) {
-                
+
                 topContributors.push(topContributorData);
                 continue;
             }
@@ -46,8 +54,7 @@ const getTopContributor = async (statsPromises) => {
 
     } catch (err) {
 
-        console.error(err);
-
+        logger.error(err);
         return [];
     }
 }
@@ -64,15 +71,32 @@ const searchedRepositories = async (search_text) => {
 
         let repositories = [];
         const statsPromises = [];
+        const redisKeys = [];
 
         for (let i = 0; i < githubRepositories.repositories.length; i++) {
 
             const repository = githubRepositories.repositories[i];
 
-            const statsPromise = githubService.githubContributorStats(
-                repository.owner.login,
-                repository.name
-            );
+            let statsPromise = null;
+            const redisKey = `${repository.owner.login}-${repository.name}`;
+
+            let result = await redisClient.get(redisKey);
+
+            if (result && JSON.parse(result).length) {
+
+                redisKeys.push(null);
+                logger.info(`Picked stats from redis for: ${redisKey}`);
+                statsPromise = Promise.resolve({ data: JSON.parse(result) });
+              
+            } else {
+
+                redisKeys.push(redisKey);
+
+                statsPromise = githubService.githubContributorStats(
+                    repository.owner.login,
+                    repository.name
+                );
+            }
 
             statsPromises.push(statsPromise);
 
@@ -87,7 +111,7 @@ const searchedRepositories = async (search_text) => {
             });
         }
 
-        const topContributors = await getTopContributor(statsPromises);
+        const topContributors = await getTopContributor(statsPromises, redisKeys);
 
         repositories = repositories.map((repository, index) => ({
             ...repository,
@@ -98,7 +122,7 @@ const searchedRepositories = async (search_text) => {
 
     } catch (err) {
 
-        console.error(err);
+        logger.error(err);
 
         return { status: 500, msg: "Internal Server Error" };
     }

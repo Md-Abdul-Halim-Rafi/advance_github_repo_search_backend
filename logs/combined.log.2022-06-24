@@ -60,3 +60,235 @@
 {"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:50:54 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:50:54"}
 {"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:50:55 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 429 27 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:50:55"}
 {"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:50:57 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 429 27 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:50:57"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:56:31"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:56:31"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:56:37"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:56:37"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:56:58"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:56:58"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:57:28"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:57:28"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:57:32"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:57:32"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:57:33"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:57:33"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:57:41"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:57:41"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:57:48"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:57:48"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:58:02"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:58:02"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:58:07"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:58:07"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:58:19"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:58:19"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:58:31"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:58:31"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:59:36"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:59:36"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:59:39"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:59:39"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 14:59:55"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 14:59:55"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:00:08 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 500 44 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:00:08"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:00:17"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:00:17"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:00:22"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:00:22"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:00:41 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:00:41"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:01:18 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:01:18"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:01:25"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:01:25"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:01:47"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:01:47"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:01:58"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:01:58"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:02:50"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:02:50"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:03:02"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:03:02"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:03:30"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:03:30"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:03:54"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:03:54"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:03:56"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:03:56"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:04:54"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:04:54"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:08:04"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:08:04"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:09:03 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:09:03"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:09:16"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:09:16"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:09:28"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:09:28"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:09:32"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:09:32"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:10:05"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:10:05"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:10:39"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:10:39"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:10:46"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:10:46"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:10:48"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:10:48"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:10:55"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:10:55"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:10:59 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 500 44 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:10:59"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:11:15"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:11:15"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:12:10 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:12:10"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:12:26"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:12:26"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:12:31"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:12:31"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:12:41 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:12:41"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:12:47"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:12:47"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:12:54"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:12:54"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:13:14 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:13:14"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:15:44"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:15:44"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:15:52"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:15:52"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:16:03"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:16:03"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:16:09"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:16:09"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:18:58"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:18:58"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:19:04"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:19:04"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:19:07"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:19:07"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:19:23"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:19:23"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:19:37"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:19:37"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:19:49 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 734 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:19:49"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:20:02"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:20:02"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:20:06 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 734 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:20:06"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:20:12 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 734 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:20:12"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:20:20"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:20:20"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:20:25"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:20:25"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:20:28 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 734 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:20:28"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:30 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:30"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:36 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:36"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:38 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:38"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:45 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:45"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:46 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:46"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:47 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:47"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:21:47 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:21:47"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:22:40"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:22:40"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:22:43 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:22:43"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:23:20"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:23:20"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:23:23 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:23:23"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:24:12"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:24:12"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:24:27"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:24:27"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:24:31"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:24:31"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:24:34"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:24:34"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:24:37"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:24:37"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:24:40 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 500 44 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:24:40"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:24:53"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:24:53"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:24:55 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 500 44 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:24:55"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:25:09"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:25:09"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:25:10"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:25:10"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:25:13 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:25:13"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:25:30"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:25:30"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:25:32 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:25:32"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:25:55"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:25:55"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:26:10"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:26:10"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:26:59"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:26:59"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:27:05 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:27:05"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:29:15 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:29:15"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:30:05"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:30:05"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:30:28"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:30:28"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:30:38"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:30:38"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:30:44"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:30:44"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:30:51"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:30:51"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:31:05"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:31:05"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:31:14"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:32:29 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 810 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:32:29"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:32:41"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:32:41"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:32:59"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:32:59"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:33:49"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:33:49"}
+{"level":"error","message":"logger.notice is not a function","stack":"TypeError: logger.notice is not a function\n    at getTopContributor (/app/services/SearchService.js:20:16)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async searchedRepositories (/app/services/SearchService.js:114:33)\n    at async getSearchedRepositories (/app/api/controllers/serach.js:5:20)","timestamp":"2022-06-24 15:34:27"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:34:27 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 558 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:34:27"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:34:37"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:34:37"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:34:42"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:34:42"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:34:42"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:34:42"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:35:22"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:35:22 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:35:22"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:35:30"}
+{"level":"info","message":"Picked stats from redis for: freeCodeCamp-freeCodeCamp","timestamp":"2022-06-24 15:35:30"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:35:30"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:35:30"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:35:30 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:35:30"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:35:31"}
+{"level":"info","message":"Picked stats from redis for: freeCodeCamp-freeCodeCamp","timestamp":"2022-06-24 15:35:31"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:35:31"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:35:31"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:35:31 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:35:31"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:35:32"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:35:32 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:35:32"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:35:56"}
+{"level":"info","message":"Picked stats from redis for: freeCodeCamp-freeCodeCamp","timestamp":"2022-06-24 15:35:56"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:35:56"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:35:56"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:35:56 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:35:56"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:40:58"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:40:58"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:41:14"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:41:14"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:41:29"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:41:29"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:41:37"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:41:37"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:41:42"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:41:42"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:41:54"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:41:54"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:42:24"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:42:24"}
+{"level":"info","message":"Connected to the Redis Server","timestamp":"2022-06-24 15:51:40"}
+{"level":"info","message":"Redis Instance is Ready!","timestamp":"2022-06-24 15:51:40"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:52:22 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:52:22"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:52:25"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:53:04"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:53:37"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:53:37 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:53:37"}
+{"level":"info","message":"Picked repos from redis for: nodejs-1","timestamp":"2022-06-24 15:53:40"}
+{"level":"info","message":"Picked stats from redis for: freeCodeCamp-freeCodeCamp","timestamp":"2022-06-24 15:53:40"}
+{"level":"info","message":"Picked stats from redis for: electron-electron","timestamp":"2022-06-24 15:53:40"}
+{"level":"info","message":"Picked stats: 2","timestamp":"2022-06-24 15:53:40"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:15:53:40 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 15:53:40"}

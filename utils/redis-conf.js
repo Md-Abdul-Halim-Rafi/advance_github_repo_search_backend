@@ -1,21 +1,9 @@
 const redisConf = {
-    development: {
-        host: "host.docker.internal",
+    [process.env.NODE_ENV]: {
+        host: process.env.REDIS_HOST,
         port: "6379",
         family: "4",
-        password: "123456",
-        db: 0,
-        showFriendlyErrorStack: true,
-        retryStrategy: function() {
-            const delay = 20000;
-            return delay;
-        },
-    },
-    production: {
-        host: "127.0.0.1",
-        port: "6379",
-        family: "4",
-        password: "%%NUPORT!!",
+        password: process.env.REDIS_PASSWORD,
         db: 0,
         showFriendlyErrorStack: true,
         retryStrategy: function() {
@@ -26,19 +14,11 @@ const redisConf = {
 }
 
 const redisConfRateLimiter = {
-    development: {
-        host: "host.docker.internal",
+    [process.env.NODE_ENV]: {
+        host: process.env.REDIS_HOST,
         port: "6379",
         family: "4",
-        password: "123456",
-        db: 0,
-        enableOfflineQueue: false
-    },
-    production: {
-        host: "127.0.0.1",
-        port: "6379",
-        family: "4",
-        password: "%%NUPORT!!",
+        password: process.env.REDIS_PASSWORD,
         db: 0,
         enableOfflineQueue: false
     }

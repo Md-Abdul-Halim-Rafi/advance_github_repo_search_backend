@@ -1,4 +1,7 @@
 const { default: axiosInstance } = require("axios");
+const logger = require("../loaders/logger");
+
+const redisClient = require("../utils/redis-client");
 
 const axios = axiosInstance.create({
     baseURL: "https://api.github.com",
@@ -13,6 +16,14 @@ const searchGithubRepositories = async (query, page = 1) => {
     const SORT = "stars";
     // const SORT = "updated";
     const MAX_LIMIT = 2;
+    const redisKey = `${query}-${page}`;
+
+    let result = await redisClient.get(redisKey);
+
+    if (result) {
+        logger.info(`Picked repos from redis for: ${redisKey}`);
+        return JSON.parse(result);
+    }
 
     try {
 
@@ -23,7 +34,11 @@ const searchGithubRepositories = async (query, page = 1) => {
 
         const { data } = await axios.get(apiURL);
 
-        return { count: data.total_count, repositories: data.items };
+        result = { count: data.total_count, repositories: data.items };
+
+        redisClient.set(redisKey, JSON.stringify(result), "ex", 15 * 60);
+
+        return result;
 
     } catch (err) {
 
