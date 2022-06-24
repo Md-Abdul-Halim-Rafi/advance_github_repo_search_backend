@@ -57,3 +57,6 @@
 {"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:03:24 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:03:24"}
 {"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:04:51 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:04:51"}
 {"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:06:12 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 200 824 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:06:12"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:50:54 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" - - \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:50:54"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:50:55 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 429 27 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:50:55"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [24/Jun/2022:14:50:57 +0000] \"GET /v1/special-search/repositories/?q=nodejs HTTP/1.1\" 429 27 \"-\" \"insomnia/2022.4.2\"\n","timestamp":"2022-06-24 14:50:57"}
