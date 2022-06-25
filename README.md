@@ -11,12 +11,15 @@ REDIS_HOST=host.docker.internal
 REDIS_PASSWORD=123456
 ```
 
-I've used **Docker** and **Docker Compose** for the development environment.
+<br />
+
+I used the Redis to store the data from GitHub API for 15 minutes. So that, I can reduce the 
+server response time a little. Also, I used the rate-limit machanism to prevent misuse of it. 
 
 <br />
 
-
 ### To run the project locally
+I've used **Docker** and **Docker Compose** for the development environment.
 
 - Run `docker-compose build` to build the docker containers (Redis & the Backend)
 - Run `docker-compose up` or `docker-compose up -d` (in detatched mode) to start the server
