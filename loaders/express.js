@@ -6,7 +6,9 @@ const logger = require("./logger");
 
 const expressLoader = async (app) => {
 
-	app.use(cors());
+	app.use(cors({
+        origin: ["https://nuport.mainly.codes"],
+    }));
 
     app.use(morgan("combined", { stream: logger.stream }));
 
