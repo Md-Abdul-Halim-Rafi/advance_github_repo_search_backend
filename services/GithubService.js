@@ -15,7 +15,7 @@ const searchGithubRepositories = async (query, page = 1) => {
 
     const SORT = "stars";
     // const SORT = "updated";
-    const MAX_LIMIT = 2;
+    const MAX_LIMIT = 20;
     const redisKey = `${query}-${page}`;
 
     let result = await redisClient.get(redisKey);
