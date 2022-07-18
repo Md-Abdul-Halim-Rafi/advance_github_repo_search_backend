@@ -7,7 +7,7 @@ const axios = axiosInstance.create({
     baseURL: "https://api.github.com",
     headers: {
         "Accept": "application/vnd.github.v3+json",
-        "Authorization": `token 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`
+        "Authorization": `token ${process.env.GITHUB_ACCESS_TOKEN}`
     }
 });
 
