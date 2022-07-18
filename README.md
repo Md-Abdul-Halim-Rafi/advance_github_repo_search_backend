@@ -7,6 +7,8 @@ NODE_ENV=development
 PORT=3100
 API_PREFIX=/v1
 
+GITHUB_ACCESS_TOKEN=abc123
+
 REDIS_HOST=host.docker.internal
 REDIS_PASSWORD=123456
 ```
